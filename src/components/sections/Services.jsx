@@ -52,17 +52,19 @@ const Services = () => {
                     </p>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-6 gap-6 h-auto md:h-[800px]">
+                <div className="grid grid-cols-1 md:grid-cols-6 gap-6 h-auto md:h-[900px]">
                     {/* Main Large Card */}
                     <ServiceCard service={services[0]} className="md:col-span-3 md:row-span-2 aspect-[4/5] md:aspect-auto" />
 
-                    {/* Smaller Grid Cards */}
-                    <ServiceCard service={services[1]} className="md:col-span-3 md:row-span-1 aspect-[4/3] md:aspect-auto" />
-                    <ServiceCard service={services[2]} className="md:col-span-3 md:row-span-1 aspect-[4/3] md:aspect-auto" />
+                    {/* Architectural Cluster */}
+                    <ServiceCard service={services[1]} className="md:col-span-2 md:row-span-1 aspect-[4/3] md:aspect-auto" />
+                    <ServiceCard service={services[2]} className="md:col-span-1 md:row-span-1 aspect-square md:aspect-auto" />
+
+                    {/* Bottom Row Cluster */}
                     <ServiceCard service={services[3]} className="md:col-span-3 md:row-span-1 aspect-[4/3] md:aspect-auto" />
 
                     {/* Bottom Wide Card */}
-                    <ServiceCard service={services[4]} className="md:col-span-6 md:row-span-1 aspect-[3/1] md:aspect-auto" />
+                    <ServiceCard service={services[4]} className="md:col-span-6 md:row-span-1 aspect-[21/9] md:aspect-auto" />
                 </div>
             </div>
         </section>
